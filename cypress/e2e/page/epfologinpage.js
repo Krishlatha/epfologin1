@@ -35,6 +35,8 @@ clicklocationOnEpfoOfficeLink() {
 
 selectState(stateName) {
   this.selectStateDropDown.should('exist').should('be.visible').select(stateName);
+
+  cy.selectDropdown(this.selectStateDropDown,stateName)
 }
 
 

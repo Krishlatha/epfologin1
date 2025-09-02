@@ -10,6 +10,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^14.5.0"
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.1",
+    "allure-cypress": "^3.3.2",
+    "allure-mocha": "^3.3.2",
+    "cypress": "^14.5.0",
+    "mocha": "^11.7.1"
   }
 }
