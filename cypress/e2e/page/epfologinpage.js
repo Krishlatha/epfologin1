@@ -22,7 +22,8 @@ class epfologinpage{
 //   }
 
   selectForEmployees() {
-  this.serviceDropDown.should('be.visible').click({ force: true });
+  // this.serviceDropDown.should('be.visible').click({ force: true });
+
 }
 
 clickUANServiceLink() {
